@@ -61,6 +61,11 @@ export const IndexPageTemplate = ({
       </h3>
       </div>
     </div>
+      <div id="youtube-video">
+        <iframe id="iframe" width="560" height="315" src="https://www.youtube-nocookie.com/embed/eh6DYJT_kpE"
+                frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen=""></iframe>
+      </div>
   <section className="section section--gradient">
     <div className="container">
       <div className="section">

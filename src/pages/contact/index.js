@@ -39,7 +39,13 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+            <h1 style={{'text-align': 'center'}}>Hier finden Sie uns:</h1>
+            <div className="map"><iframe id="iframemap" src='https://www.uwp.is.ed.ac.uk/3rd-party-widgets/maps/embeds/gm.php?map=neVyAMCmGP' width='420'
+                                         height='400' frameBorder='0' className='uwpgmap'></iframe>
+            </div>
+            </div>
+            <div className="content">
+              <h1>Kontakt</h1>
               <form
                 name="contact"
                 method="post"
