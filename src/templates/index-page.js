@@ -64,7 +64,7 @@ export const IndexPageTemplate = ({
       <div id="youtube-video">
         <iframe id="iframe" width="560" height="315" src="https://www.youtube-nocookie.com/embed/eh6DYJT_kpE"
                 frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen=""></iframe>
+                allowFullScreen="" title="youtube-video"></iframe>
       </div>
   <section className="section section--gradient">
     <div className="container">
@@ -92,18 +92,18 @@ export const IndexPageTemplate = ({
               <div className="columns">
               <div className="column is-12 has-text-centered">
                 <Link className="btn" to="/products">
-                  See all products
+                  Zum Sortiment
                 </Link>
                 </div>
               </div>
               <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                    Die neusten Geschichten
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                   <Link className="btn" to="/blog">
-                    Read more
+                    Mehr lesen
                   </Link>
                   </div>
               </div>

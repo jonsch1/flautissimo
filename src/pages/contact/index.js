@@ -41,7 +41,7 @@ export default class Index extends React.Component {
             <div className="content">
             <h1 style={{'text-align': 'center'}}>Hier finden Sie uns:</h1>
             <div className="map"><iframe id="iframemap" src='https://www.uwp.is.ed.ac.uk/3rd-party-widgets/maps/embeds/gm.php?map=neVyAMCmGP' width='420'
-                                         height='400' frameBorder='0' className='uwpgmap'></iframe>
+                                         height='400' frameBorder='0' className='uwpgmap' title="karte"></iframe>
             </div>
             </div>
             <div className="content">
@@ -64,7 +64,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'name'}>
-                    Your name
+                    Ihr Name
                   </label>
                   <div className="control">
                     <input
@@ -79,7 +79,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'email'}>
-                    Email
+                    Ihre E-mail Adresse
                   </label>
                   <div className="control">
                     <input
@@ -108,7 +108,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <button className="button is-link" type="submit">
-                    Send
+                    Senden
                   </button>
                 </div>
               </form>
