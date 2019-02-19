@@ -10,17 +10,18 @@ mainpitch:
     Flautissimo ist das Musikgeschäft in Aachen mit einem umfangreichen
     Sortiment in den Bereichen Blockflöte, Gitarre, Ukulele, Musiknoten und
     vieles weitere.  
-
+    
     Für einen Eindruck  von unserem Sortiment schauen Sie gerne in das
-    Vorstellungsvideo.  
-
+    Vorstellungsvideo.
+    
     Bei uns können Sie in entspannter, familienfreundlicher Atmosphäre
-    Musikinstrumente ausprobieren.  
-
+    Musikinstrumente ausprobieren. 
+       
     Falls Sie sich für ein Instrument entscheiden, können Sie es zu fairen
     Preisen erwerben. Sie profitieren darüberhinaus von unserem kulanten Service
-    falls es mal zu einem Problem kommen sollte.  
-description: Hier kommt eine Überschrift hin.
+    falls es mal zu einem Problem kommen sollte. 
+     
+description: überschrift
 intro:
   blurbs:
     - image: /img/coffee-gear.png

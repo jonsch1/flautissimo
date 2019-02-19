@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Unser Sortiment
-image: /img/jumbotron.jpg
+image: /img/Musikladen-Aachen-Sortiment.jpg
 heading: Hier kommt eine Überschrift hin.
 description: Eine Beschreibung.
 intro:
@@ -13,20 +13,18 @@ main:
   heading: Hier kommt eine Überschrift hin.
   description: Eine Beschreibung.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: Eine Auswahl unserer Blockflöten
+    image: /img/Musikladen-Aachen-Blockfloeten.JPG
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Eine Auswahl unserer Gitarren
+    image: /img/Musikladen-Aachen-Gitarren.JPG
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Eine Auswahl unseres Gitarren und Flöten Sortiments
+    image: /img/Musikladen-Aachen-Sortiment-2.JPG
 testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: Ein Zitat
-  - author: Philipp Trommler
-    quote: Ein Zitat
-full_image: /img/products-full-width.jpg
+  - author: Jonathan Schaul
+    quote: Ein wunderbarer Musikladen
+full_image: /img/Musikladen-Aachen-Frontansicht.JPG
 pricing:
   heading: Überschrift
   description: Beschreibung

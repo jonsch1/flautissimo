@@ -3,28 +3,66 @@ templateKey: blog-post
 title: Beispiel-Post
 date: 2017-01-04T15:04:10.000Z
 description: >-
-  Brewing with a Chemex probably seems like a complicated, time-consuming
-  ordeal, but once you get used to the process, it becomes a soothing ritual
-  that's worth the effort every time.
+  Dies ist eine Beispiel Beschreibung
 tags:
-  - brewing
-  - chemex
+  - Beispiel-Post
 ---
 ![chemex](/img/chemex.jpg)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+# Fama Achivi viro bacarum Niobe primordia illis
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+## Plurimus comitate cruentat Lucifero urbes mihi arcum
 
-## The little secrets of Chemex brewing
+Lorem markdownum in tacuit
+magis, diva est, captus ab hoc iam, que. Dum nec potiuntur calculus sitim
+Nepheleque ceris subit pugnacem excussum petendo
+prunaque sinit caelestibus tenet diversa valido ignari. Cum vertice exuit. Quae
+plura, quo sed forti monte passa, placidi resumere invictumque? Gelidos furore
+matris iacentem equorum notissima tutus.
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+- Suae axis latus
+- Ferox rursusque reicerer tremoribus dominum
+- Si venenis pastum tamen
+- Latuitque mollit belloque natus ante gente et
+- Neque Sidone re pollice potiere
+- Mihi quae consurgere ignibus visu ante innumeris
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+## Terras numinis manibus successisse
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+Ubi frigus **festas** ingens; *est pectora* Hibero conatur quoniam iudice
+parentis quondam Achilli Ceyce perveniunt **an virum hostesque** semina. Serviet
+sibi sanguine **quarta**. Demittitur annum, ossa egit caelestia, si ipse formae.
+Nec ausum prodigiis requiram regesta magicae; non nec Lelex cauda *spatiosi*
+precaria sparsit: in sontibus **inque**: dignus.
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+## Eundem delere
+
+arvo. Tollere se arcuit latius protinus
+se digitos colla non vitae ferro ilice? Illa temptataque damnosasque per,
+Finierat! Mater rosarum Penelopaeque relabi
+malum tempora vidit, non et monstris retinentia suis hic; profundi veros.
+
+> Visum quod non Aeneas neque, suis foedera, cum certus en mutantur. Currat alas
+> pater, ason per Thracesque soror
+> undis lumbis et amas, capitis nulla? Capitum maneat. Quo esse **irascitur
+> conpositum** pallor, AI esse **precesque**, est.
+
+## Matris erat vocis remanet
+
+Causam hanc cladis ut miserum intrat restitit quidem, de e nec contraria oscula
+ducis versasque pauper. Fastigiaque imo Achilles apertas vocesque subitis mediis
+quae; dum est in quis natus parentque *capillis*. Rettulit longae Phlegraeon nam
+negarit passa turbant exposcere simul
+querorque meritum.
+
+- Nostra sanguisque Iuno
+- Sordidus rexerat
+- Erat toto
+- Latet qui litora
+- Veniam Zetesque ad mulcet linguisque citharae terris
+- Pendentemque illum videtur alios ad faciat pone
+
+Flectique vellet medeatur ante ferre est, ubi solidas rupit. Mihi incingitur
+Alcides proximitas sine tantis! Sidera rebus? Ille sed anno possederat mea magna
+patitur; ad, est et, quam tenus hic per. Sed illo madefient posco dedere
+servavit ardet traxere!

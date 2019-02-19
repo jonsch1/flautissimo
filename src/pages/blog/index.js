@@ -8,7 +8,7 @@ export default class BlogIndexPage extends React.Component {
     
   return (
       <Layout>
-        <section className="section">
+        <section class="section margin-bottom">
           <div className="container">
             <div className="content">
             <div
@@ -26,7 +26,7 @@ export default class BlogIndexPage extends React.Component {
                     padding: '1rem',
                   }}
                 >
-                  Latest Stories
+                  Neuigkeiten und Geschichten
                 </h1>
               </div>
             </div>

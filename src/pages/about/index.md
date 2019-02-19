@@ -2,22 +2,8 @@
 templateKey: about-page
 title: Über uns
 ---
-### Zwischenüberschrift
+### Noch! kein Inhalt
 
-Text
+Diese Seite wird momentan bearbeitet
 
-### Zwischenüberschrift
 
-Text
-
-### Zwischenüberschrift
-
-Text
-
-### Zwischenüberschrift
-
-Text
-
-### Zwischenüberschrift
-
-Text
