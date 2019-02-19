@@ -162,6 +162,7 @@ query IndexPageTemplate {
           }
         }
         heading
+        description
         subheading
         mainpitch {
           title

@@ -3,6 +3,7 @@ templateKey: index-page
 title: Der Musikladen in Aachen
 image: /img/startseite-option.JPG
 heading: Musikgeschäft im Herzen Burtscheids
+description: Hier entsteht ein kleiner Text zu unserem Sortiment (Marken etc.)
 subheading: 'Hier können Sie Flöten, Gitarren und vieles mehr kaufen..'
 mainpitch:
   title: Warum Musikhaus Aachen?
