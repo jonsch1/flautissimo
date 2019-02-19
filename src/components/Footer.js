@@ -10,48 +10,48 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered">
           <img
             src={logo}
-            alt="Kaldi"
+            alt="Musikhaus-Aachen"
             style={{ width: '50%', height: 'auto' }}
           />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
               <div className="columns">
-                <div className="column is-3">
+                <div className="column is-one-third has-text-centered">
                 <section className="menu">
-                    <ul className="menu-list">
-                      <li><Link to="/" className="navbar-item">Home</Link></li>
-                      <li><Link className="navbar-item" to="/about">About</Link></li>
-                      <li><Link className="navbar-item" to="/products">
-                        Products
+                    <ul className="menu-list no-margin">
+                      <li><Link to="/" className="navbar-item text-center">Startseite</Link></li>
+                      <li><Link className="navbar-item text-center" to="/about">About</Link></li>
+                      <li><Link className="navbar-item text-center" to="/products">
+                        Sortiment
                       </Link>
                     </li>
                     </ul>
                   </section>
                 </div>
-                <div className="column is-3">
+                <div className="column is-one-third has-text-centered">
                 <section>
-                  <ul className="menu-list">
+                  <ul className="menu-list no-margin">
                   <li>
-                    <Link className="navbar-item" to="/blog">
-                      Latest Stories
+                    <Link className="navbar-item text-center" to="/blog">
+                      Neuigkeiten
                     </Link>
                   </li>
                   <li>
-                    <Link className="navbar-item" to="/contact">
-                      Contact
+                    <Link className="navbar-item text-center" to="/contact">
+                      Kontakt
                     </Link>
                   </li>
                     <li>
-                      <Link className="navbar-item" to="/impressum">
+                      <Link className="navbar-item text-center" to="/impressum">
                         Impressum
                       </Link>
                     </li>
                   </ul>
                 </section>
                 </div>
-                <div className="column is-3">
-                  <ul className="menu-list">
+                <div className="column is-one-third text-center">
+                  <ul className="menu-list text-center no-margin">
                     <li>
                      Adresse:
                     </li>
@@ -62,7 +62,6 @@ const Footer = class extends React.Component {
                       52066 Aachen
                     </li>
                   </ul>
-
                 </div>
               </div>
             </div>

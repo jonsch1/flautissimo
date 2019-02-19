@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/Musikhaus-Aachen-2.svg'
+//import logo from '../img/Musikhaus-Aachen-2.svg'
 
 const Navbar = class extends React.Component {
   componentDidMount() {
@@ -35,9 +35,11 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
+            <h1 className="title h1-margin-fix">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Musikhaus-Aachen"/>
+              Musikhaus-Aachen
             </Link>
+            </h1>
             {/* Hamburger menu */}
             <div className="navbar-burger burger" data-target="navMenu">
               <span />
