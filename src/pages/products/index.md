@@ -5,7 +5,6 @@ image: /img/Musikladen-Aachen-Sortiment.jpg
 heading: Hier kommt eine Überschrift hin.
 description: Eine Beschreibung.
 intro:
-  blurbs: []
   heading: Hier kommt eine Überschrift hin.
   description: |
     Eine Beschreibung.
