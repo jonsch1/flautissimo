@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ProductPageTemplate = ({
@@ -16,7 +15,6 @@ export const ProductPageTemplate = ({
   main,
   testimonials,
   fullImage,
-  pricing,
 }) => (
   <section className="section section--gradient">
     <div className="container">
@@ -95,11 +93,6 @@ export const ProductPageTemplate = ({
                   })`,
                 }}
               />
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
             </div>
           </div>
         </div>
@@ -146,7 +139,6 @@ const ProductPage = ({ data }) => {
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
       />
     </Layout>
   )
@@ -234,10 +226,6 @@ export const productPageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
-        }
-        pricing {
-          heading
-          description
         }
       }
     }
