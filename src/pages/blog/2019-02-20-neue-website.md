@@ -10,4 +10,4 @@ tags:
 
 # Wilkommen auf unserer neuen Website!
 
-Die Website befindet sich momentan noch im Aufbau, viele Inhalte werden folgen. Sollten Sie Anmerkungen haben - bitte [kontaktieren Sie uns!] (/contact)
+Die Website befindet sich momentan noch im Aufbau, viele Inhalte werden folgen. Sollten Sie Anmerkungen haben - bitte kontaktieren Sie uns!
