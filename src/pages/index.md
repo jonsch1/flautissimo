@@ -7,9 +7,8 @@ subheading: 'Hier können Sie Flöten, Gitarren und vieles mehr kaufen..'
 mainpitch:
   title: Warum Musikhaus Aachen?
   description: >
-    Flautissimo ist das Musikgeschäft in Aachen mit einem umfangreichen
-    Sortiment in den Bereichen Blockflöte, Gitarre, Ukulele, Musiknoten und
-    vieles weitere.  
+    Wir sind ein Musikgeschäft in Aachen mit sehr umfangreichen Sortiment in den
+    Bereichen Blockflöte, Gitarre, Ukulele, Musiknoten und vielen mehr.  
 
     Für einen Eindruck  von unserem Sortiment schauen Sie gerne in das
     Vorstellungsvideo.
