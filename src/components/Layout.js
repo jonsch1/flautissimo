@@ -27,6 +27,8 @@ const TemplateWrapper = ({ children }) => (
           <meta
             name="description"
             content={data.site.siteMetadata.description}
+            name='google-site-verification'
+            content='sCZrAgc_nUm6fNAxvulo9fl3G9u-lg5sT1FZAK0LmQ8'
           />
 
           <link
