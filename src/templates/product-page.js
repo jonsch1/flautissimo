@@ -56,7 +56,7 @@ export const ProductPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
                   </h3>
-                  <p>{main.description}</p>
+                  {main.description}
                 </div>
               </div>
               <div className="tile is-ancestor">
