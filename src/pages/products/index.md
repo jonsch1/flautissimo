@@ -12,7 +12,7 @@ intro:
   heading: Hier kommt eine Überschrift hin.
   description: Eine Beschreibung.
 main:
-  body: >-
+  description: >-
     Für unseren ausführlichen Katalog im Bereich Blockflöten schauen Sie bei
     unserer alten Website vorbei [\-->!](http://flautissimo.de/katalog.php4).
 
