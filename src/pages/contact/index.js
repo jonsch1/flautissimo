@@ -49,7 +49,7 @@ export default class Index extends React.Component {
             </div>
             </div>
             <div className="content">
-              <h1>Kontakt</h1>
+              <h1 style={{'text-align':'center' ,'color':'#D64000'}}>Kontakt</h1>
               <form
                 name="contact"
                 method="post"
