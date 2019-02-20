@@ -64,27 +64,33 @@ export const IndexPageTemplate = ({
                 allowFullScreen="" title="youtube-video"></iframe>
       </div>
   <section className="section section--gradient">
+    <div class="column is-10 is-offset-1">
+      <div>
+        <h1 className="h1 is-size-1">Warum Musikhaus Aachen?</h1>
+      </div>
+      <div>
+        <h4 className="subtitle">Flautissimo ist das Musikgesch&auml;ft in Aachen mit einem umfangreichen Sortiment in
+          den Bereichen <strong>Blockfl&ouml;te, Gitarre, Ukulele, Musiknoten und vieles weitere </strong>.</h4>
+        <h4 className="subtitle">F&uuml;r einen Eindruck von unserem Sortiment schauen Sie gerne in das
+          Vorstellungsvideo.</h4>
+        <h3 className="has-text-weight-semibold is-size-2">Musikgesch&auml;ft im Herzen Burtscheids</h3>
+        <br/>
+        <ul>
+          <li className="subtitle"><strong>Bei uns k&ouml;nnen Sie in entspannter, familienfreundlicher Atmosph&auml;re
+            Musikinstrumente ausprobieren.</strong></li>
+          <li className="subtitle"><strong>Falls Sie sich f&uuml;r ein Instrument entscheiden, k&ouml;nnen Sie es zu
+            fairen Preisen erwerben.</strong></li>
+          <li className="subtitle"><strong>Sie profitieren dar&uuml;berhinaus von unserem kulanten Service falls es mal
+            zu einem Problem kommen sollte.</strong></li>
+        </ul>
+        <p>&nbsp;</p>
+      </div>
+    </div>
     <div className="container">
       <div className="section">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="content">
-              <div className="content">
-                <div className="tile">
-                  <h1 className="title">{mainpitch.title}</h1>
-                </div>
-                <div className="tile">
-                  <h3 className="subtitle">{mainpitch.description}</h3>
-                </div>
-              </div>
-              <div className="columns">
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    {heading}
-                  </h3>
-                  <p>{description}</p>
-                </div>
-              </div>
               <div className="columns">
               <div className="column is-12 has-text-centered">
                 <Link className="btn" to="/products">
