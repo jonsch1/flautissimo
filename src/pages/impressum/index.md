@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Impressum
 ---
-Betreiber der Seite: Flautissimo Gmbh
+**Betreiber der Seite: Flautissimo Gmbh**
 
 Krugenofen, 19
 
@@ -10,19 +10,11 @@ Krugenofen, 19
 
 Deutschland
 
-
-
 Telefon: +49 241 95451475 
-
-
 
 E-Mail: schumacher@flautissimo.de
 
-
-
-Geschäftsführer:
-
-Kay Schumacher
+Geschäftsführer: Kay Schumacher
 
 Handelsregister: Aachen, HRB 15450
 
