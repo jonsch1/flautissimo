@@ -44,19 +44,23 @@ export const ProductPageTemplate = ({
                 </h2>
               </div>
               <div className="columns">
-                <div className="column is-7">
+                <div>
                   <h3 className="has-text-weight-semibold is-size-2">
                     {heading}
                   </h3>
-                  <p>{description}</p>
-                </div>
-              </div>
-              <div className="columns">
-                <div className="column">
-                  <h3 className="has-text-weight-semibold is-size-3">
-                    {main.heading}
-                  </h3>
-                  {main.description}
+                  <p>F&uuml;r unseren ausf&uuml;hrlichen Katalog im Bereich Blockfl&ouml;ten schauen Sie bei unserer alten Website vorbei <a href="http://flautissimo.de/katalog.php4">--&gt;!</a>.</p>
+                  <p>In unserem Musikgesch&auml;ft in Aachen, Burtscheid verkaufen wir unter anderem <strong>Blockfl&ouml;ten der Marken:</strong> Moeck, Mollenhauer, Kueng, Fehr, Huber, Dolmetsch, Kunath, Coolsma, Yamaha, Zen-On, Woodnote, Aulos, Paetzold, Hohner, Hopf, Susato, Flautissimo.</p>
+                  <p>Sollte eine f&uuml;r Sie interessante Marke nicht dabei sein, stellen Sie gerne eine <a href="/contact">Anfrage!</a>.</p>
+                  <p><strong>Unsere Marken im Bereich Gitarre:</strong></p>
+                  <ol>
+                    <li>Aranjuez und Stanford sind zwei Gitarren-Marken des engagierten Kirchheimer Musikvertriebs imusic network, die wir hier in Aachen repr&auml;sentieren.</li>
+                    <li>Kantare ist eine finnische Gitarrenmarke die wir hier in Aachen vertreten. Sie ist verbunden mit dem bekannten finnischen Gitarrenbauer Likaanen. Herausragendes Feature dieser Gitarren ist die patentierte "Sound lense", eine spezielle Gestaltung der Decke im Bereich des Steges, die den Instrumenten eine leichte Ansprache und einen besonderen Sustain verleiht.</li>
+                    <li>Besonders stolz sind wir auch , dass wir hier in Aachen die Marke "La Mancha" vom Musikvertrieb Reinhard repr&auml;sentieren. La Mancha wird allen ein Begriff sein, die in den letzten Jahren die Instrumentenpr&auml;mierungen der EGTA (europ&auml;ische Vereinigung der Gitarrenlehrer) verfolgt haben; hier hat die La Mancha meist in allen Kategorien die vorderen Pl&auml;tze belegt.</li>
+                  </ol>
+                <br/>
+                  <p><strong>Unser weiteres Sortiment umfasst Ukulelen, Percussions, Gitarrenverst&auml;rker und vieles mehr (siehe Video).</strong></p>
+                <br/>
+                <br/>
                 </div>
               </div>
               <div className="tile is-ancestor">
