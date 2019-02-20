@@ -40,8 +40,12 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
             <h1 style={{'textAlign': 'center'}}>Hier finden Sie uns:</h1>
-            <div className="map"><iframe id="iframemap" src='https://www.uwp.is.ed.ac.uk/3rd-party-widgets/maps/embeds/gm.php?map=neVyAMCmGP' width='420'
-                                         height='400' frameBorder='0' className='uwpgmap' title="karte"></iframe>
+            <div className="map"><iframe id="iframemap" src='https://www.uwp.is.ed.ac.uk/3rd-party-widgets/maps/embeds/gm.php?map=bvIGiJv24O' width='420'
+                                         height='400' frameBorder='0' className='uwpgmap' title="Krugenofen 19, 52066 Aachen"></iframe>
+            </div>
+            <div className='zeiten'>
+              <h4>Öffnungszeiten:</h4>
+              <pre>Montag:   Geschlossen<br />Dienstag:  10:00&ndash;13:00<br />Mittwoch:  10:00&ndash;13:00, 15:00&ndash;18:00<br />Donnerstag:  10:00&ndash;13:00, 15:00&ndash;18:00<br />Freitag:   10:00&ndash;13:00, 15:00&ndash;18:00<br />Samstag: 10:00&ndash;14:00<br />Sonntag: Geschlossen</pre>
             </div>
             </div>
             <div className="content">

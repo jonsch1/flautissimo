@@ -68,7 +68,7 @@ export const IndexPageTemplate = ({
       <div>
         <h1 className="has-text-weight-semibold is-size-2">Warum Musikhaus Aachen?</h1>
         <br/>
-        <h4 className="subtitle">Flautissimo ist das Musikgesch&auml;ft in Aachen mit einem umfangreichen Sortiment in
+        <h4 className="subtitle">Musikhaus-Aachen ist das Musikgesch&auml;ft in Aachen mit einem sehr umfangreichen Sortiment in
           den Bereichen <strong>Blockfl&ouml;te, Gitarre, Ukulele, Musiknoten und vieles weitere </strong>.</h4>
         <h4 className="subtitle">F&uuml;r einen Eindruck von unserem Sortiment schauen Sie gerne in das
           Vorstellungsvideo.</h4>
