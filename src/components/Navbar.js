@@ -35,7 +35,7 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <h1 className="title h1-margin-fix">
+            <h1 className="title h1-margin-fix" style={{'color':'#FF2F1E'}}>
             <Link to="/" className="navbar-item" title="Logo">
               Musikhaus-Aachen
             </Link>

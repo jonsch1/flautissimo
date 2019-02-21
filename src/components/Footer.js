@@ -9,7 +9,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered">
           <Link to="/" className="navbar-item text-center" style={{ 'display': 'block',
             'margin': '0 auto'}}>
-            <h1 className="is-size-2" style={{'margin': '18px 0px 18px 0px'}}>Musikhaus-Aachen</h1>
+            <h1 className="is-size-2" style={{'margin': '18px 0px 18px 0px', 'color':'#FF2F1E'}}>Musikhaus-Aachen</h1>
           </Link>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
