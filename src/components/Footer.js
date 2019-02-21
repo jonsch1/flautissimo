@@ -8,11 +8,10 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Musikhaus-Aachen"
-            style={{ width: '50%', height: 'auto' }}
-          />
+          <Link to="/" className="navbar-item text-center" style={{ 'display': 'block',
+            'margin': '0 auto'}}>
+            <h1 className="is-size-2" style={{'margin': '18px 0px 18px 0px'}}>Musikhaus-Aachen</h1>
+          </Link>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
