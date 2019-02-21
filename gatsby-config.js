@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Musikhaus-Aachen',
+    title: 'Musikhaus-Aachen | Gitarren, Flöten, Ukulelen, Noten und vieles mehr.',
     description:
-      'Dies ist die Website des Musikgeschäfts Musikhaus Aachen, der Musikladen verkauft Flöten, Gitarren, Noten, Geigen, Ukulelen und vieles mehr',
+      'Musikhaus-Aachen verkauft Blockflöten, Gitarren, Ukulelen, Noten und vieles mehr zu attraktiven Preisen mit dem besten Service. Schauen Sie vorbei!',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
