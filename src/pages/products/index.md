@@ -12,6 +12,7 @@ intro:
   heading: Hier kommt eine Überschrift hin.
   description: Eine Beschreibung.
 main:
+  heading: Übersicht der vertretenen Marken
   description: >-
     Für unseren ausführlichen Katalog im Bereich Blockflöten schauen Sie bei
     unserer alten Website vorbei [\-->!](http://flautissimo.de/katalog.php4).
@@ -20,7 +21,7 @@ main:
     In unserem Musikgeschäft in Aachen, Burtscheid verkaufen wir unter anderem
     **Blockflöten der Marken:** Moeck, Mollenhauer, Kueng, Fehr, Huber,
     Dolmetsch, Kunath, Coolsma, Yamaha, Zen-On, Woodnote, Aulos, Paetzold,
-    Hohner, Hopf, Susato, Flautissimo. 
+    Hohner, Hopf, Susato, Flautissimo.
 
 
     Sollte eine für Sie interessante Marke nicht dabei sein, stellen Sie gerne
@@ -47,9 +48,8 @@ main:
     die La Mancha meist in allen Kategorien die vorderen Plätze belegt.
 
 
-    **Unser weiteres Sortiment umfasst Ukulelen, Percussions, Gitarrenverstärker
-    und vieles mehr (siehe Video).**
-  heading: Übersicht der vertretenen Marken
+    **Unser weiteres Sortiment umfasst Ukulelen, Percussion Instrumente,
+    Gitarrenverstärker und vieles mehr (siehe Video).**
   image1:
     alt: Eine Auswahl unserer Blockflöten
     image: /img/Musikladen-Aachen-Blockfloeten.JPG
