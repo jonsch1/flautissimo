@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Über uns
 ---
-Die Firma Flautissimo GmbH (Die Betreiberin dieser Seiten) ist schon seit einiger Zeit im Gross- und Einzelhandel mit Blockflöten tätig; insbesonders auch mit dem Deutschland-Vertrieb der Blockflöten der Marken Zen-On (Japan) und Woodnote (China). 
+Die Firma Flautissimo GmbH (Die Betreiberin dieser Seiten) ist schon seit einiger Zeit im Gross- und Einzelhandel mit Blockflöten tätig- insbesonders auch mit dem Deutschland-Vertrieb der Blockflöten der Marken Zen-On (Japan) und Woodnote (China). 
 
 **Stück für Stück hat sich das Sortiment zunächst auf Gitarren ausgeweitet und über die Zeit kam vieles weitere dazu (Percussions, Ukulelen und vieles mehr).**
 
