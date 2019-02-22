@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import { Link } from 'gatsby'
 
 function encode(data) {
   return Object.keys(data)
@@ -44,6 +45,9 @@ export default class Index extends React.Component {
                                          height='400' frameBorder='0' className='uwpgmap' title="Krugenofen 19, 52066 Aachen"></iframe>
             </div>
             <div className='zeiten'>
+              <br/>
+              <Link to="tel:004924195451475"> <h4> Telefon: +49 241 95451475 </h4> </Link>
+              <br/>
               <h4>Öffnungszeiten:</h4>
               <pre>Montag:   Geschlossen<br />Dienstag:  10:00&ndash;13:00<br />Mittwoch:  10:00&ndash;13:00, 15:00&ndash;18:00<br />Donnerstag:  10:00&ndash;13:00, 15:00&ndash;18:00<br />Freitag:   10:00&ndash;13:00, 15:00&ndash;18:00<br />Samstag: 10:00&ndash;14:00<br />Sonntag: Geschlossen</pre>
             </div>
