@@ -67,7 +67,7 @@ export const IndexPageTemplate = ({
         <h1 className="has-text-weight-semibold is-size-2">Warum Musikhaus Aachen?</h1>
         <br/>
         <h4 className="subtitle">Musikhaus-Aachen ist das Musikgesch&auml;ft in Aachen mit einem sehr umfangreichen Sortiment in
-          den Bereichen <strong>Blockfl&ouml;te, Gitarre, Ukulele, Musiknoten und vieles weitere </strong>.</h4>
+          den Bereichen <strong>Blockfl&ouml;te, Gitarre, Ukulele, Musiknoten und vielem Weiteren. </strong></h4>
         <h4 className="subtitle">F&uuml;r einen Eindruck von unserem Sortiment schauen Sie gerne in das
           Vorstellungsvideo.</h4>
         <h3 className="has-text-weight-semibold is-size-2">Musikgesch&auml;ft im Herzen Burtscheids</h3>
@@ -76,7 +76,7 @@ export const IndexPageTemplate = ({
           <li className="subtitle"><strong>Bei uns k&ouml;nnen Sie in entspannter, familienfreundlicher Atmosph&auml;re
             Musikinstrumente ausprobieren.</strong></li>
           <li className="subtitle"><strong>Falls Sie sich f&uuml;r ein Instrument entscheiden, k&ouml;nnen Sie es zu
-            fairen Preisen erwerben.</strong></li>
+            einem fairen Preis erwerben.</strong></li>
           <li className="subtitle"><strong>Sie profitieren dar&uuml;berhinaus von unserem kulanten Service falls es mal
             zu einem Problem kommen sollte.</strong></li>
         </ul>
