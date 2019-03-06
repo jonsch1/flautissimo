@@ -42,7 +42,7 @@ const Footer = class extends React.Component {
                   </li>
                     <li>
                       <Link className="navbar-item text-center" to="/impressum">
-                        Impressum
+                        Impressum & Datenschutzerklärung
                       </Link>
                     </li>
                   </ul>
