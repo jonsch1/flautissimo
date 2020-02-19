@@ -20,7 +20,7 @@ Einladung zum 3. Workshop Ukulele für Fortgeschrittene mit Marlo Strauss!
 
  Thematischer Schwerpunkt diesmal: Melodiespiel, Voicings, Arrangements! 
 
-Der Kurs findet am Fr., 28.Februar 2018 von 18:30 - 21:00 Uhr im Musikladen FLAUTISSIMO , Krugenofen 19, 52066 Aachen statt; wie üblich in kleiner Runde mit max. 10 Teilnehmern, kleine Kaffee/Tee-Pause auf halber Strecke. 
+Der Kurs findet am Fr., 28.Februar 2020 von 18:30 - 21:00 Uhr im Musikladen FLAUTISSIMO , Krugenofen 19, 52066 Aachen statt; wie üblich in kleiner Runde mit max. 10 Teilnehmern, kleine Kaffee/Tee-Pause auf halber Strecke. 
 
 Kostenbeitrag: 30 Euro inkl. Arbeitsmaterial und Verpflegung. 
 
