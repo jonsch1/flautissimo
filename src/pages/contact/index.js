@@ -40,7 +40,7 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
             <h1 style={{'textAlign': 'center'}}>Hier finden Sie uns:</h1>
-            <div className="map"><iframe id="iframemap" src='https://www.uwp.is.ed.ac.uk/3rd-party-widgets/maps/embeds/gm.php?map=bvIGiJv24O' width='420'
+            <div className="map"><iframe id="iframemap" src='https://www.uwp.is.ed.ac.uk/3rd-party-widgets/maps/v4/embeds/gm.php?map=YP4xhLw5qX' width='420'
                                          height='400' frameBorder='0' className='uwpgmap' title="Krugenofen 19, 52066 Aachen"></iframe>
             </div>
             <div className='zeiten'>
