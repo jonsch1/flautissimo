@@ -7,11 +7,7 @@ description: >-
   gebrauchte deutsche  Mandoline, Neuzugänge gebrauchte Flöten, rumänische 3/4
   Geige
 tags:
-  - >-
-    Betriebsferien Neuzugänge Andrew White Freja Baton Rouge X11LS/FE Folk
-    gebrauchten deutschen Mandoline VEB Sinfonia Markneukirchen gebrauchten
-    Flöten Rössler Oberlender Moeck Rottenburgh Sopranino Moeck Tuju
-    Bassblockflöte Moeck Steenbergen Alt schöne 3/4 Geige rumänischen Manufaktur
+  - ''
 ---
 Liebe Kunden
 
@@ -31,8 +27,6 @@ Als nächstes hätten wir ein richtiges Schmuckstück von einer **gebrauchten de
 
 Die Mandoline wurde von VEB Sinfonia in Markneukirchen gebaut und wird mit guter Besaitung und Koffer angeboten für VB 380 Euro.
 
-
-
 Auch bei den **gebrauchten Flöten** tut sich immer was, aktuell können wir z.B. eine **Rössler Oberlender** Altblockflöte Grenadill, frisch revidiert, für VB 400 Euro anbieten;
 
 außerdem eine **Moeck Rottenburgh Sopranino** Buchsbaum, im original Etuikasten, VB 140 Euro,
@@ -41,12 +35,12 @@ eine **Moeck Tuju Bassblockflöte** Ahorn barock, Einfachklappe F, zum Direktanb
 
 sowie eine **Moeck Steenbergen Alt** a=415 Hz, Indisch Buchsbaum, im original Lederetui für VB 600 Euro.
 
-
-
 Mit Herrn von Borries haben wir endlich wirklich profunde Geigen-Sachkenntnis im Hause, und das wirkt sich nun so mit und mit aufs Sortiment aus; daher hierzu guter Letzt noch eine **schöne 3/4 Geige**.. Dieses klanglich wirklich überzeugende Einsteigerinstrument in 3/4 Größe kommt aus einer rumänischen Manufaktur, sehr schön geflammtes Fichten- und Ahornholz, Öllackierung, Wirbel, Griffbrett und Kinnhalter aus Ebenholz, in der Wiener Werkstatt von Petz spielfertig eingerichtet mit Thomastik Dominant Saiten und Aubert Steg, als Set mit Bogen und Koffer nur 425 Euro.
-
-
 
 Eine schöne Ferienzeit wünscht Ihnen das
 
 Flautissimo Team
+
+
+
+Tags: Betriebsferien Neuzugänge Andrew White Freja Baton Rouge X11LS/FE Folk gebrauchten deutschen Mandoline VEB Sinfonia Markneukirchen gebrauchten Flöten Rössler Oberlender Moeck Rottenburgh Sopranino Moeck Tuju Bassblockflöte Moeck Steenbergen Alt schöne 3/4 Geige rumänischen Manufaktur
