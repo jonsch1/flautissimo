@@ -5,6 +5,8 @@ import Layout from '../components/Layout'
 
 class TagRoute extends React.Component {
   render() {
+    if(!this.props.data) {
+    return null;}
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
       <li key={post.node.fields.slug}>
