@@ -5,10 +5,7 @@ date: 2020-09-04T15:02:32.936Z
 description: |
   Schulstart -Angebot Gitarren und Ukulelen.
 tags:
-  - >-
-    Gewa VGS Student Basic+ Primera  Prodipe Pro Natura Silver Pro Arte Maestro
-    La Mancha Rubi Granada Siena Rubinito Prodipe Student Altamira
-    Kunststoff-Ukulele Sapelli-Mahagoni deutsche Mandoline vollmassiv Angebote
+  - ''
 ---
 Liebe Freunde unseres Musiklädchens, liebe Gitarristen
 
@@ -39,3 +36,7 @@ Und last not least noch mal der Hinweis:
 So weit erst mal....
 
 Herzliche Grüße
+
+
+
+Gewa VGS Student Basic+ Primera  Prodipe Pro Natura Silver Pro Arte Maestro La Mancha Rubi Granada Siena Rubinito Prodipe Student Altamira Kunststoff-Ukulele Sapelli-Mahagoni deutsche Mandoline vollmassiv Angebote
