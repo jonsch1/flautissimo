@@ -5,13 +5,8 @@ date: 2020-09-04T15:02:32.936Z
 description: |
   Schulstart -Angebot Gitarren und Ukulelen.
 tags:
-  - >-
-    Gewa VGS Student Basic+ Primera  Prodipe Pro Natura Silver Pro Arte Maestro
-    La Mancha Rubi Granada Siena Rubinito Prodipe Student Altamira
-    Kunststoff-Ukulele Sapelli-Mahagoni deutsche Mandoline vollmassiv Angebote
+  - ''
 ---
-
-
 Liebe Freunde unseres Musiklädchens, liebe Gitarristen
 
 Im Low Budget Einsteigerbereich bieten wir mit der Gewa VGS Student und Basic+, schlichte und ehrliche Einsteigerinstrumente mit ansprechender Optik im Preisbereich zwischen 69 und 109 Euro,
@@ -23,8 +18,6 @@ Im Low Budget Einsteigerbereich bieten wir mit der Gewa VGS Student und Basic+, 
  Damit ist die Lücke zu unseren bewährten anspruchsvollen Einsteigerinstrumenten wie La Mancha Rubi (unser Preis 259,-) , Granada und Siena (unser Preis ab 239 Euro) geschlossen, so sollte für jeden Anspruch etwas dabei sein. La Mancha hat übrigens mit der Rubinito noch ein etwas einfacher ausgestattetes Modell im Angebot (225 Euro).
 
 Dazugestossen ist noch die Prodipe Student. Diese Gitarre wird in zusammenarbeit mit Altamira produziert und ist sowohl qualitativ als auch preislich sehr interessant (UVP 239,- unser Preis 210,-).
-
-
 
  Schulstart Aktion Ukulele!
 
@@ -42,6 +35,6 @@ Und last not least noch mal der Hinweis:
 
 So weit erst mal....
 
-
-
 Herzliche Grüße
+
+Tags: Gewa VGS Student Basic+ Primera  Prodipe Pro Natura Silver Pro Arte Maestro La Mancha Rubi Granada Siena Rubinito Prodipe Student Altamira Kunststoff-Ukulele Sapelli-Mahagoni deutsche Mandoline vollmassiv Angebote
