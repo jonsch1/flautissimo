@@ -40,7 +40,7 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
             <h1 style={{'textAlign': 'center'}}>Hier finden Sie uns:</h1>
-            <div className="map"><iframe width=“420” height=“400” frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBD_fqDXZj27CQ3Rehaxc2MxxG247Ae7xM&q=Krugenofen%2019%2C%2052066%20Aachen+(Musikhaus-Aachen)" allowfullscreen> </iframe>
+            <div className="map"><iframe width="420" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBD_fqDXZj27CQ3Rehaxc2MxxG247Ae7xM&q=Krugenofen%2019%2C%2052066%20Aachen+(Musikhaus-Aachen)" allowfullscreen> </iframe>
             </div>
             <div className='zeiten'>
               <br/>
