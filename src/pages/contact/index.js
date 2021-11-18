@@ -46,7 +46,7 @@ export default class Index extends React.Component {
               <a href="tel:004924195451475"> <h4> Telefon: +49 241 95451475 </h4> </a>
               <br/>
               <h4>Öffnungszeiten:</h4>
-              <pre>Montag:   Geschlossen<br />Dienstag:  10:00&ndash;13:00<br />Mittwoch:  10:00&ndash;13:00, 15:00&ndash;18:00<br />Donnerstag:  10:00&ndash;13:00, 15:00&ndash;18:00<br />Freitag:   10:00&ndash;13:00, 15:00&ndash;18:00<br />Samstag: 10:00&ndash;14:00<br />Sonntag: Geschlossen</pre>
+              <pre>Montag:   Geschlossen<br />Dienstag:  10:30&ndash;13:00<br />Mittwoch:  10:30&ndash;13:00, 15:00&ndash;17:30<br />Donnerstag:  10:30&ndash;13:00, 15:00&ndash;17:30<br />Freitag:   10:30&ndash;13:00, 15:00&ndash;17:30<br />Samstag: 10:00&ndash;13:00<br />Sonntag: Geschlossen</pre>
             </div>
             </div>
             <div className="content">
