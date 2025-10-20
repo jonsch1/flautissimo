@@ -1,0 +1,124 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Unser Sortiment | Musikhaus-Aachen"
+  description="In unserem Sortiment sind viele Marken aus den Bereichen Blockflöte, Gitarre, Ukulele, Percussions usw. vertreten."
+>
+  <!-- Hero Section -->
+  <div
+    class="relative bg-cover bg-center h-[300px] md:h-[400px] flex items-center"
+    style="background-image: url('/img/Musikladen-Aachen-Sortiment.jpg')"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+    <div class="container mx-auto px-4 relative z-10">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Unser Sortiment</h1>
+      <p class="text-xl md:text-2xl text-white">Flöten, Gitarren und vieles mehr.</p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-gray-50 py-12">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <!-- Introduction -->
+      <div class="bg-white rounded-lg shadow-lg p-6 md:p-10 mb-8">
+        <p class="text-lg text-gray-700 mb-6">
+          In unserem Sortiment sind viele Marken aus den Bereichen Blockflöte, Gitarre, Ukulele, Percussions usw. vertreten. Für eine Übersicht schauen Sie gerne in das Video auf der Startseite, kommen Sie bei uns vorbei, oder lesen Sie hier weiter.
+        </p>
+
+        <h2 class="text-3xl font-bold mb-6 text-gray-900">Übersicht der vertretenen Marken</h2>
+
+        <p class="text-gray-700 mb-4">
+          Für unseren ausführlichen Katalog im Bereich Blockflöten schauen Sie bei unserer alten Website vorbei
+          <a href="http://flautissimo.de/katalog.php4" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-primary-dark underline">→</a>
+        </p>
+
+        <!-- Blockflöten Section -->
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-gray-900">Blockflöten der Marken:</h3>
+          <p class="text-gray-700">
+            Moeck, Mollenhauer, Kueng, Fehr, Huber, Dolmetsch, Kunath, Coolsma, Yamaha, Zen-On, Woodnote, Aulos, Paetzold, Hohner, Hopf, Susato, Flautissimo.
+          </p>
+          <p class="mt-4 text-gray-600 italic">
+            Sollte eine für Sie interessante Marke nicht dabei sein, stellen Sie gerne eine <a href="/contact" class="text-primary hover:text-primary-dark underline">Anfrage!</a>
+          </p>
+        </div>
+
+        <!-- Gitarren Section -->
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-gray-900">Unsere Marken im Bereich Gitarre:</h3>
+
+          <div class="space-y-4">
+            <div class="pl-4 border-l-4 border-primary">
+              <h4 class="font-semibold text-lg mb-2">Aranjuez und Stanford</h4>
+              <p class="text-gray-700">
+                Zwei Gitarren-Marken des engagierten Kirchheimer Musikvertriebs imusic network, die wir hier in Aachen repräsentieren.
+              </p>
+            </div>
+
+            <div class="pl-4 border-l-4 border-primary">
+              <h4 class="font-semibold text-lg mb-2">Kantare</h4>
+              <p class="text-gray-700">
+                Eine finnische Gitarrenmarke die wir hier in Aachen vertreten. Sie ist verbunden mit dem bekannten finnischen Gitarrenbauer Likaanen. Herausragendes Feature dieser Gitarren ist die patentierte "Sound lense", eine spezielle Gestaltung der Decke im Bereich des Steges, die den Instrumenten eine leichte Ansprache und einen besonderen Sustain verleiht.
+              </p>
+            </div>
+
+            <div class="pl-4 border-l-4 border-primary">
+              <h4 class="font-semibold text-lg mb-2">La Mancha</h4>
+              <p class="text-gray-700">
+                Besonders stolz sind wir auch, dass wir hier in Aachen die Marke "La Mancha" vom Musikvertrieb Reinhard repräsentieren. La Mancha wird allen ein Begriff sein, die in den letzten Jahren die Instrumentenprämierungen der EGTA (europäische Vereinigung der Gitarrenlehrer) verfolgt haben; hier hat die La Mancha meist in allen Kategorien die vorderen Plätze belegt.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Weiteres Sortiment -->
+        <div class="bg-primary/5 rounded-lg p-6">
+          <p class="text-lg font-semibold text-gray-900">
+            Unser weiteres Sortiment umfasst Ukulelen, Percussion Instrumente, Gitarrenverstärker und vieles mehr (siehe Video).
+          </p>
+        </div>
+      </div>
+
+      <!-- Image Gallery -->
+      <div class="grid md:grid-cols-3 gap-6 mb-8">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img
+            src="/img/Musikladen-Aachen-Blockfloeten.JPG"
+            alt="Eine Auswahl unserer Blockflöten"
+            class="w-full h-64 object-cover"
+          />
+          <p class="p-4 text-center text-gray-700 font-medium">Eine Auswahl unserer Blockflöten</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img
+            src="/img/Musikladen-Aachen-Gitarren.JPG"
+            alt="Eine Auswahl unserer Gitarren"
+            class="w-full h-64 object-cover"
+          />
+          <p class="p-4 text-center text-gray-700 font-medium">Eine Auswahl unserer Gitarren</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img
+            src="/img/Musikladen-Aachen-Sortiment-2.JPG"
+            alt="Eine Auswahl unseres Gitarren und Flöten Sortiments"
+            class="w-full h-64 object-cover"
+          />
+          <p class="p-4 text-center text-gray-700 font-medium">Eine Auswahl unseres Sortiments</p>
+        </div>
+      </div>
+
+      <!-- Store Front Image -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="/img/Musikladen-Aachen-Frontansicht.JPG"
+          alt="Musikhaus-Aachen Frontansicht"
+          class="w-full h-auto"
+        />
+      </div>
+    </div>
+  </div>
+</BaseLayout>

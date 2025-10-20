@@ -1,0 +1,134 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Kontakt | Musikhaus-Aachen"
+  description="Kontaktieren Sie uns - Musikhaus-Aachen, Krugenofen 19, 52066 Aachen"
+>
+  <div class="bg-gray-50 py-12">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h1 class="text-4xl md:text-5xl font-bold mb-8 text-center text-gray-900">Hier finden Sie uns:</h1>
+
+      <!-- Map -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden mb-8">
+        <iframe
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBD_fqDXZj27CQ3Rehaxc2MxxG247Ae7xM&q=Krugenofen%2019%2C%2052066%20Aachen+(Musikhaus-Aachen)"
+          width="100%"
+          height="400"
+          frameborder="0"
+          title="Krugenofen 19, 52066 Aachen"
+          class="w-full"
+        ></iframe>
+      </div>
+
+      <!-- Opening Hours -->
+      <div class="bg-white rounded-lg shadow-lg p-8 mb-8 text-center">
+        <a href="tel:004924195451475" class="text-2xl font-semibold text-primary hover:text-primary-dark mb-6 inline-block">
+          Telefon: +49 241 95451475
+        </a>
+
+        <h2 class="text-2xl font-bold mb-4 text-gray-900">Öffnungszeiten:</h2>
+        <div class="space-y-2 text-lg text-gray-700">
+          <div class="flex justify-between max-w-md mx-auto">
+            <span class="font-medium">Montag:</span>
+            <span>Geschlossen</span>
+          </div>
+          <div class="flex justify-between max-w-md mx-auto">
+            <span class="font-medium">Dienstag:</span>
+            <span>10:30–13:00</span>
+          </div>
+          <div class="flex justify-between max-w-md mx-auto">
+            <span class="font-medium">Mittwoch:</span>
+            <span>10:30–13:00, 15:00–17:30</span>
+          </div>
+          <div class="flex justify-between max-w-md mx-auto">
+            <span class="font-medium">Donnerstag:</span>
+            <span>10:30–13:00, 15:00–17:30</span>
+          </div>
+          <div class="flex justify-between max-w-md mx-auto">
+            <span class="font-medium">Freitag:</span>
+            <span>10:30–13:00, 15:00–17:30</span>
+          </div>
+          <div class="flex justify-between max-w-md mx-auto">
+            <span class="font-medium">Samstag:</span>
+            <span>10:00–13:00</span>
+          </div>
+          <div class="flex justify-between max-w-md mx-auto">
+            <span class="font-medium">Sonntag:</span>
+            <span>Geschlossen</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="bg-white rounded-lg shadow-lg p-8">
+        <h2 class="text-3xl font-bold mb-6 text-center text-primary">Kontakt</h2>
+
+        <form
+          name="contact"
+          method="POST"
+          action="/contact/thanks"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          class="max-w-2xl mx-auto"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <div hidden>
+            <label>
+              <input name="bot-field" />
+            </label>
+          </div>
+
+          <div class="mb-6">
+            <label for="name" class="block text-gray-700 font-semibold mb-2">
+              Ihr Name
+            </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+            />
+          </div>
+
+          <div class="mb-6">
+            <label for="email" class="block text-gray-700 font-semibold mb-2">
+              Ihre E-mail Adresse
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+            />
+          </div>
+
+          <div class="mb-6">
+            <label for="message" class="block text-gray-700 font-semibold mb-2">
+              Anfrage
+            </label>
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+            ></textarea>
+          </div>
+
+          <div>
+            <button
+              type="submit"
+              class="w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-lg transition-colors"
+            >
+              Senden
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

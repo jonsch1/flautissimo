@@ -1,0 +1,11 @@
+0 verbose cli /opt/homebrew/Cellar/node/23.11.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.11.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/jschaul/Code/flautissimo/.npmrc
+5 silly config load:file:/opt/homebrew/etc/npmrc
+6 verbose title npm run build
+7 verbose argv "run" "build"
+8 verbose logfile logs-max:10 dir:/Users/jschaul/Code/flautissimo/.npm/_logs/2025-10-20T08_29_08_302Z-
+9 verbose logfile /Users/jschaul/Code/flautissimo/.npm/_logs/2025-10-20T08_29_08_302Z-debug-0.log
+10 silly logfile done cleaning log files

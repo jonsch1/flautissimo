@@ -1,59 +1,94 @@
-# Gatsby + Netlify CMS Starter
+# Musikhaus-Aachen
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-starter-netlify-cms-ci/deploys)
+Modern website for Musikhaus-Aachen built with Astro and Tailwind CSS.
 
-**Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
+## 🚀 Project Structure
 
-This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.
-
-It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
-
-## Prerequisites
-
-- Node (I recommend using v8.2.0 or higher)
-- [Gatsby CLI](https://www.gatsbyjs.org/docs/)
-
-## Getting Started (Recommended)
-
-Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. The example here is the Kaldi coffee company template (adapted from [One Click Hugo CMS](https://github.com/netlify-templates/one-click-hugo-cms)). Use the button below to build and deploy your own copy of the repository:
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/gatsby-starter-netlify-cms&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
-After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
-
-### Access Locally
 ```
-$ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
-$ cd [REPO_NAME]
-$ yarn
-$ npm run develop
-```
-To test the CMS locally, you'll need run a production build of the site:
-```
-$ npm run build
-$ npm run serve
+/
+├── public/              # Static assets (images, fonts, etc.)
+│   └── img/            # Image files
+├── src/
+│   ├── components/     # Astro components
+│   │   ├── Navbar.astro
+│   │   └── Footer.astro
+│   ├── content/        # Content collections
+│   │   ├── blog/       # Blog posts (markdown)
+│   │   └── config.ts   # Content collection schemas
+│   ├── layouts/        # Page layouts
+│   │   └── BaseLayout.astro
+│   └── pages/          # Route pages
+│       ├── index.astro
+│       ├── about.astro
+│       ├── products.astro
+│       ├── contact.astro
+│       ├── impressum.astro
+│       ├── 404.astro
+│       └── blog/
+│           ├── index.astro
+│           └── [slug].astro
+├── astro.config.mjs    # Astro configuration
+├── tailwind.config.mjs # Tailwind CSS configuration
+└── package.json
 ```
 
-## Getting Started (Without Netlify)
-```
-$ gatsby new [SITE_DIRECTORY_NAME] https://github.com/netlify-templates/gatsby-starter-netlify-cms/
-$ cd [SITE_DIRECTORY_NAME]
-$ npm run build
-$ npm run serve
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `pnpm install`         | Installs dependencies                            |
+| `pnpm run dev`         | Starts local dev server at `localhost:4321`      |
+| `pnpm run build`       | Build your production site to `./dist/`          |
+| `pnpm run preview`     | Preview your build locally, before deploying     |
+| `pnpm run astro ...`   | Run CLI commands like `astro add`, `astro check` |
+
+## 📝 Adding Blog Posts
+
+Blog posts are stored as markdown files in `src/content/blog/`. To add a new post:
+
+1. Create a new file in `src/content/blog/` with the naming pattern: `YYYY-MM-DD-title.md`
+2. Add frontmatter at the top:
+
+```markdown
+---
+title: Your Post Title
+date: 2025-10-20
+description: A brief description of your post
+tags: [tag1, tag2]
+---
+
+Your post content here...
 ```
 
-### Setting up the CMS
-Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
+## 🎨 Styling
 
-## Debugging
-Windows users might encounter ```node-gyp``` errors when trying to npm install.
-To resolve, make sure that you have both Python 2.7 and the Visual C++ build environment installed.
-```
-npm config set python python2.7
-npm install --global --production windows-build-tools
-```
+The site uses Tailwind CSS for styling. The primary color scheme:
+- Primary: `#D64000`
+- Primary Dark: `#FF2F1E`
 
-[Full details here](https://www.npmjs.com/package/node-gyp 'NPM node-gyp page')
+You can customize these in [tailwind.config.mjs](tailwind.config.mjs).
 
-## Purgecss
-This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
+## 📦 Deployment
+
+The site can be deployed to any static hosting service (Netlify, Vercel, etc.). The build output will be in the `dist/` directory.
+
+### Netlify
+
+The contact form is configured for Netlify Forms. Make sure your `netlify.toml` is configured, or deploy through the Netlify UI.
+
+## 🔧 Migration Notes
+
+This site was migrated from Gatsby to Astro:
+- ✅ All blog posts migrated from `src/pages/blog/*.md` to `src/content/blog/*.md`
+- ✅ Replaced Bulma CSS with Tailwind CSS
+- ✅ Removed Netlify CMS (now using plain markdown files)
+- ✅ All pages converted from React/JSX to Astro components
+- ✅ Images moved from `static/img/` to `public/img/`
+
+## 📞 Contact
+
+For questions about the website, please contact:
+- Email: schumacher@flautissimo.de
+- Phone: +49 241 95451475

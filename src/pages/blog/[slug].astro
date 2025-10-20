@@ -1,0 +1,146 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<BaseLayout
+  title={`${entry.data.title} | Musikhaus-Aachen`}
+  description={entry.data.description}
+>
+  <!-- Hero Section with Title -->
+  <div class="bg-gradient-to-br from-primary/10 via-white to-primary/5 border-b border-gray-200">
+    <div class="container mx-auto px-4 py-12 md:py-16 max-w-4xl">
+      <div class="mb-4">
+        <a
+          href="/blog"
+          class="inline-flex items-center text-primary hover:text-primary-dark font-medium transition-colors group"
+        >
+          <svg class="w-4 h-4 flex-shrink-0 mr-2 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+          </svg>
+          Alle Neuigkeiten
+        </a>
+      </div>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight">
+        {entry.data.title}
+      </h1>
+
+      <div class="flex items-center gap-4 text-gray-600 mb-6">
+        <div class="flex items-center gap-2">
+          <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+          </svg>
+          <time datetime={entry.data.date.toISOString()}>
+            {entry.data.date.toLocaleDateString('de-DE', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            })}
+          </time>
+        </div>
+      </div>
+
+      {entry.data.description && (
+        <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 border-l-4 border-primary shadow-sm">
+          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed">
+            {entry.data.description}
+          </p>
+        </div>
+      )}
+
+      {entry.data.tags && entry.data.tags.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-6">
+          {entry.data.tags.map((tag) => (
+            <span class="bg-primary text-white px-4 py-1.5 rounded-full text-sm font-medium">
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+
+  <!-- Article Content -->
+  <article class="bg-white py-12 md:py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="prose prose-lg md:prose-xl max-w-none">
+        <Content />
+      </div>
+
+      <!-- Footer Navigation -->
+      <div class="mt-12 pt-8 border-t border-gray-200">
+        <a
+          href="/blog"
+          class="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-lg transition-colors group"
+        >
+          <svg class="w-4 h-4 flex-shrink-0 mr-2 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+          </svg>
+          Zurück zu allen Neuigkeiten
+        </a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style is:global>
+  .prose {
+    color: #333;
+  }
+
+  .prose h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+
+  .prose h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #374151;
+  }
+
+  .prose p {
+    margin-bottom: 1rem;
+    line-height: 1.75;
+  }
+
+  .prose ul, .prose ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .prose li {
+    margin-bottom: 0.5rem;
+  }
+
+  .prose a {
+    color: #D64000;
+    text-decoration: underline;
+  }
+
+  .prose a:hover {
+    color: #FF2F1E;
+  }
+
+  .prose strong {
+    font-weight: 600;
+    color: #1f2937;
+  }
+</style>

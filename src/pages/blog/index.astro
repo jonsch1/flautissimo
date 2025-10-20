@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const sortedPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout
+  title="Neuigkeiten | Musikhaus-Aachen"
+  description="Aktuelle Neuigkeiten, Workshops und Veranstaltungen von Musikhaus-Aachen"
+>
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-primary/10 via-white to-primary/5 border-b border-gray-200">
+    <div class="container mx-auto px-4 py-12 md:py-16 max-w-6xl">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gray-900">Neuigkeiten</h1>
+      <p class="text-xl text-gray-600">Aktuelle Workshops, Veranstaltungen und Neuigkeiten aus unserem Musikhaus</p>
+    </div>
+  </div>
+
+  <!-- Blog Posts Grid -->
+  <div class="bg-white py-12 md:py-16">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {sortedPosts.map((post) => (
+          <article class="group bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-primary/30 flex flex-col">
+            <div class="p-6 md:p-8 flex flex-col flex-grow">
+              <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                <time datetime={post.data.date.toISOString()}>
+                  {post.data.date.toLocaleDateString('de-DE', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}
+                </time>
+              </div>
+
+              <h2 class="text-xl md:text-2xl font-bold mb-3 leading-tight">
+                <a href={`/blog/${post.slug}`} class="text-gray-900 group-hover:text-primary transition-colors">
+                  {post.data.title}
+                </a>
+              </h2>
+
+              <p class="text-gray-600 mb-4 flex-grow line-clamp-3">{post.data.description}</p>
+
+              {post.data.tags && post.data.tags.length > 0 && (
+                <div class="flex flex-wrap gap-2 mb-4">
+                  {post.data.tags.slice(0, 2).map((tag) => (
+                    <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium">
+                      {tag}
+                    </span>
+                  ))}
+                  {post.data.tags.length > 2 && (
+                    <span class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-medium">
+                      +{post.data.tags.length - 2}
+                    </span>
+                  )}
+                </div>
+              )}
+
+              <a
+                href={`/blog/${post.slug}`}
+                class="inline-flex items-center text-primary hover:text-primary-dark font-semibold group mt-auto"
+              >
+                Weiterlesen
+                <svg class="w-4 h-4 flex-shrink-0 ml-1 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>
